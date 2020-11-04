@@ -4,9 +4,9 @@ var path = require("path");
 var app = express();
 
 // Define routes here
-app.use(express.static(path.join(__dirname, "/dist/one-stop-tech")));
+app.use(express.static(path.join(__dirname, "/dist/ng-tic-tac-toe")));
 app.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname + "/dist/one-stop-tech/index.html"));
+  res.sendFile(path.join(__dirname + "/dist/ng-tic-tac-toe/index.html"));
 });
 
 // start the server listening for requests
