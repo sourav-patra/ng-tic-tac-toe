@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "node server.js",
     "build": "npm run build:PROD",
-    "build:PROD": "ng build --prod --aot --buildOptimizer --output-hashing=all",
+    "build:PROD": "ng build --prod --buildOptimizer --output-hashing=all",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
