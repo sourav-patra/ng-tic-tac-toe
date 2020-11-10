@@ -1,6 +1,6 @@
 # NgTicTacToe
 
-A game of tic-tac-toe. Also a PWA.
+A game of tic-tac-toe. Also a PWA. Find the live link [here](https://play-ng-tic-tac-toe.herokuapp.com/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
